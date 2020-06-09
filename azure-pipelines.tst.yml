@@ -23,7 +23,3 @@ steps:
   displayName: 'npm install and build'
 
 
-- task: PublishTestResult@2
-  inputs:
-     testResultsFormat: 'JUnit'
-     testResultsFiles:  '**/TEST-*.xml'
