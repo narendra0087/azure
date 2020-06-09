@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-Settings
+
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
@@ -20,7 +20,7 @@ Settings
     npm install
     npm run build
   displayName: 'npm install and build'
-Settings
+
 
 - task: PublishTestResult@2
   inpits:
